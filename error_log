@@ -1,0 +1,2 @@
+[22-Jul-2019 11:33:29 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Validator as Validator because the name is already in use in /home/mdtc/public_html/pragati/app/Http/Controllers/PublisherController.php on line 13
+[22-Jul-2019 11:33:40 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Validator as Validator because the name is already in use in /home/mdtc/public_html/pragati/app/Http/Controllers/PublisherController.php on line 13

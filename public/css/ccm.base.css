@@ -1,0 +1,35 @@
+img.ccm-captcha-image{display:block}
+*.ccm-spacer{clear:both;font-size:1px;line-height:1px;}
+div.ccm-pagination{text-align:center;position:relative}
+div.ccm-pagination span.ccm-page-right{position:absolute;top:0px;right:0px;margin-right:0px !important}
+div.ccm-pagination span.ccm-page-right span{margin-right:0px}
+div.ccm-pagination span.ccm-page-left{position:absolute;top:0px;left:0px}
+div.ccm-pagination span{margin-right:4px}
+.ccm-ui div.ccm-pagination span{margin-right:0px;}
+div.pagination ul strong, div.pagination ul span.ltgray{display:block;padding:0 14px;float:left;line-height:34px;border-right:1px solid #DDD;text-decoration:none;}
+.ccm-layout-table .ccm-layout-col{float:left}
+.ccm-layout .first .ccm-layout-col-spacing{margin-left:0px !important}
+.ccm-layout .last .ccm-layout-col-spacing{margin-right:0px !important}
+.ccm-error{font-weight:bold;color:#f00}
+.ccm-required{font-weight:bold;color:#3975AD}
+div#ccm-overlay{position:fixed;z-index:99;top:0px;left:0px;background-color:#000;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;height:100%;width:100%;display:none;}
+.ccm-input-time-wrapper select{width:55px !important;margin-right:4px !important;}
+.ccm-input-date{width:80px !important;margin-right:4px !important;}
+#quote-carousel{padding:0 10px 30px 10px;margin-top:30px;}
+#quote-carousel .carousel-control{background:none;color:#fff;font-size:2.3em;text-shadow:none;margin-top:30px;}
+#quote-carousel .carousel-control.left{left:-15px;}
+#quote-carousel .carousel-control.right{right:-15px !important;}
+#quote-carousel .carousel-indicators{right:50%;top:auto;bottom:0px;margin-right:-19px;}
+#quote-carousel .carousel-indicators li{background:#c0c0c0;}
+#quote-carousel .carousel-indicators .active{background:#333333;}
+#quote-carousel img{width:250px;height:100px}
+.item blockquote{border-left:none;margin:0;width:auto;}
+.item blockquote p{color:#fff;font-size:15px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.item blockquote img{margin-bottom:10px;}
+.item blockquote p:before{content:"\f10d";font-family:'Fontawesome';float:left;margin-right:10px;color:#fff;}
+@media (min-width:768px){#quote-carousel{margin-bottom:0;padding:0 40px 30px 40px;}
+}
+@media (max-width:768px){#quote-carousel .carousel-indicators{bottom:-20px !important;}
+#quote-carousel .carousel-indicators li{display:inline-block;margin:0px 5px;width:15px;height:15px;}
+#quote-carousel .carousel-indicators li.active{margin:0px 5px;width:20px;height:20px;}
+}

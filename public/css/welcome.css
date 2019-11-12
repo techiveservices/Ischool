@@ -1,0 +1,100 @@
+	.input100, .login100-form-btn{padding: 10px	; height: auto; font-size: 14px;}
+	.container-login100-form-btn{ margin-top: 5px; }
+	.validate-input{ margin-bottom: 5px; }
+	.flex-sb-m{ padding-bottom: 0 !important; }
+	.container-login100-form-btn.m-t-17 {
+    width: 50%;
+    float: right;
+}
+.flex-sb-m.w-full.p-t-3.p-b-24 {
+    width: 50%;
+    float: left;
+}
+form.login100-form.validate-form.flex-sb.flex-w {
+    background-color: #fff;
+    padding: 20px;
+}
+/*body{
+    background-image: url('image/login_bg_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}*/
+.login100-form-title{ padding-bottom: 20px; }
+.wrap-login100{ background-color: transparent; }
+.input100{ background-color: #fff; }
+.login100-form-title, .txt1{ color: #367fa9; }
+.login100-form-title{ font-size: 24px; }
+.login100-form-btn{ background-color: #367fa9 }
+.img_style{ max-width: 100%; width: 100vw; height: 100vh; position: fixed; z-index: -1;}
+.logo-for-logim{ width: 200px; height: auto; display: flex; margin-left: auto; margin-top: 10px;}
+.tab_login{  background-color: rgba(160, 136, 98, 0.8); height: 85vh; }
+.join_contain{overflow-y: auto; height: 60vh;}
+.join_contain ul li label{ color: #fff; font-weight: bold; }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.menu_tab li{ cursor: pointer; font-weight: bold; }
+li{ list-style: none; }
+a{ text-decoration: none; }
+.about_contain { height: 75vh; overflow-y: auto; color: #fff; }
+.login_contain input{ background-color: #ffffff6b; border-radius:  5px; border: 0;color: #fff;}
+.padd div{ padding:0px 30px;  }
+::placeholder { color: #fff; }
+/*.fixt_bot{ position: fixed; bottom: 10px; }*/
+.about_contain p, .about_contain a{ font-weight: 500; line-height: 18px; font-size: 14px; margin-bottom: 5px;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1168px) {	
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+ 
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+.tab_login {     max-width: 40%;
+    flex: 40%;
+        background-color: rgba(22, 56, 113, 0.8);
+    height: auto;
+    margin: 10px 0 0 0 !important;
+}
+iframe{ width: 250px; margin-top: 20px; }
+
+
+.menu_tab li {
+    cursor: pointer;
+    margin-right: 5px !important;
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 479px) {
+.mobilie{ display: none; }
+.tab_login {    
+        background-color: rgba(160, 136, 98, 0.8);
+        height: 100%;
+    margin: 10px 0 0 0 !important;
+}
+iframe{ width: 100%; margin-top: 20px; }
+.img_style{ display: none;}
+.mio, .mio img { display: block !important; height: auto; width: 100%; }
+.about_contain{ height: auto; }
+}
+.join_form input{ background-color: #ffffff6b; border-radius:  5px; border: 0;color: #fff; }
